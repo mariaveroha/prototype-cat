@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+}
+
+.one:not(:last-child) {
+    margin-right: 6.25vw;
+}
+@media (max-width: 1140px) {
+    .one:not(:last-child) {
+        margin-right: 5vw;
+    }
+}
+
+
+
+@media (max-width: 820px) {
+    .cards {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}

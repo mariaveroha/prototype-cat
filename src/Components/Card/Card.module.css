@@ -1,0 +1,209 @@
+
+.cardDis {
+    filter: grayscale(0.5);
+}
+.card_content {
+   width: 320px;
+    height: 520px;
+}
+.back , .backDis {
+    position: relative;
+    width: 100%;
+    height: 480px;
+}
+.back {
+    cursor: pointer; 
+}
+
+.text_card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+ }
+
+ .back_image, .border_image {
+    position: absolute;
+    width: 100%;
+ }
+ .border_image {
+    z-index: 30;
+ }
+ .desc {
+    display: block;
+    color: #666666;
+    padding-top: 21px;
+    margin-left: 51px;
+    line-height: 18.58px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .name , .nameDis {
+    display: block;
+    margin-left: 48px;
+    margin-top: 5px;
+    font-size: 48px;
+    line-height: 55.73px;
+    font-weight: 700;
+ }
+ .taste , .tasteDis {
+    display: block;
+    margin-left: 48px;
+    font-size: 24px;
+    line-height: 27.87px;
+    font-weight: 700;
+ }
+ .nameDis, .tasteDis {
+    color: #B3B3B3;
+ }
+ .count , .present {
+    display: block;
+    color: #666666;
+    line-height: 16px;
+    font-size: 14px;
+    margin-left: 51px;
+ }
+
+ .count{
+    margin-top: 15px;
+ }
+
+ .cat {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+ }
+
+ .buy , .buyDis{
+   display: block;
+   text-align: center;
+    font-size: 13px;
+    line-height: 15.09px;
+    font-weight: 400;
+    margin-top: 14px;
+ }
+ .buy {
+    color: white;
+ }
+ .buyDis {
+    color: #FFFF66;
+ }
+
+ .button {
+    color: #1698D9;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+ }
+
+ .weight , .weightPink, .weightDis {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    z-index: 20;
+  }
+
+  .weight {
+    background-color: #1698D9;
+  }
+  .weightPink {
+    background-color: #E52E7A;
+  }
+  .weightDis {
+    background-color: #B3B3B3;
+  }
+
+
+  @media (max-width: 1140px) {
+   .card_content {
+   width: 290px;
+   height: 440px;
+   }
+   .cat , .back , .backDis {
+      height: 440px;
+   }
+}
+
+
+@media (max-width: 1000px) {
+   .card_content {
+   width: 250px;
+   height: 380px;
+   }
+   .cat , .back , .backDis {
+      height: 380px;
+   }
+   .desc {
+      font-size: 14px;
+   }
+   .name, .nameDis {
+      line-height: 30px;
+      font-size: 35px;
+   }
+   .taste , .tasteDis {
+      font-size: 20px;
+   }
+   .count {
+      margin-top: 5px;
+   }
+}
+
+@media (max-width: 850px) {
+   .card_content {
+      width: 230px;
+      height: 347px;
+      }
+      .cat , .back , .backDis {
+         height: 347px;
+      }
+      .desc , .name, .nameDis, .taste , .tasteDis, .count , .present {
+         margin-left: 30px;
+      }
+}
+
+@media (max-width: 820px)  {
+   .card_content {
+      width: 320px;
+       height: 520px;
+   }
+    .back , .backDis {
+         height: 480px;
+      }
+      .cat {
+         height: 100%;
+      }
+      .desc {
+      margin-left: 51px;
+      font-size: 16px;
+      }
+      .name, .nameDis {
+         font-size: 48px;
+         line-height: 55.73px;
+         margin-left: 48px;
+      }
+      .taste , .tasteDis {
+         margin-left: 48px;
+         font-size: 24px;
+      }
+      .count {
+         margin-top: 15px;
+      }
+      .present, .count {
+         margin-left: 51px;
+      }
+
+}
